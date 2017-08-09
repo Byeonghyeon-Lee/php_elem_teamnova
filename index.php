@@ -8,8 +8,8 @@
 	</style>
 	<script type="text/javascript">
 		function guestLogin() {
-			document.getElementById("id").value = "Guest";
-			document.getElementById("password").value = "Guest";
+			document.getElementById("id").setAttribute("value", "Guest");
+			document.getElementById("password").setAttribute("value", "Guest");
 		}
 
 		function emptyCheck() {
