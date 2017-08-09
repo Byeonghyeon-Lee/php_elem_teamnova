@@ -11,19 +11,19 @@
 		var inputPW = document.getElementById("password");
 
 		function guestLogin() {
-			inputID.setAttribute("value", "Guest");
-			inputPW.setAttribute("value", "Guest");
+			document.getElementById("id").setAttribute("value", "Guest");
+			document.getElementById("id").setAttribute("value", "Guest");
 
 			return false;
 		}
 
 		function emptyCheck() {
-			if (inputID.value == "") {
+			if (document.getElementById("id").value == "") {
 				alert("아이디를 입력하십시오!");
 				document.getElementById("id").focus();
 				return false;
 			}
-			else if (inputPW.value == "") {
+			else if (document.getElementById("id").value == "") {
 				alert("비밀번호를 입력하십시오");
 				document.getElementById("password").focus();
 				return false;
