@@ -21,12 +21,12 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr><a href="boardDoc.php?docNum=001&docTitle=Manual Bootstrap Practice&docAuthor=관리자&docCreated=2017.08.09&docRead=0">
+				<tr>
 					<td name="docNum">001</td>
-					<td name="docTitle">Manual Bootstrap Practice</td>
+					<td name="docTitle"><a href="boardDoc.php?docNum=001&docTitle=Manual Bootstrap Practice&docAuthor=관리자&docCreated=2017.08.09&docRead=0">Manual Bootstrap Practice</a></td>
 					<td name="docAuthor">관리자</td>
 					<td name="docCreated">2017.08.09</td>
-					<td name="docRead">0</td></a>
+					<td name="docRead">0</td>
 				</tr>
 				<tr>
 					<td>002</td>
