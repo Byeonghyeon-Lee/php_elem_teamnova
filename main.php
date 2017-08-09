@@ -20,7 +20,13 @@
 	<!-- 로그인에 성공한 경우 이곳에 출력할 안내인사 -->
 	<div>
 		<?php 
-			print $_POST['id']. "님 안녕하세요";
+			if ($_POST['id'] != "") {
+				print $_POST['id']. "님 안녕하세요";
+			}
+			else {
+				print "Guest님 안녕하세요";
+			}
+			
 		?>
 	</div>
 	<div id="churchIntro">

@@ -43,7 +43,8 @@
 		<!-- 로그인 정보 입력 후 누를 버튼들이 위치한 부분 -->
 		<div class="buttons" id="buttons">
 			<button class="button" id="signup" type="submit" formaction="signup.php">회원가입</button>
-			<button class="button" id="guestLogin" type="button" onclick="guestLogin()" style="padding-left: 5px">방문객입장</button>
+			<!-- <button class="button" id="guestLogin" type="button" onclick="guestLogin()" style="padding-left: 5px">방문객입장</button> -->
+			<button class="button" id="guestLogin" onclick="guestLogin()" style="padding-left: 5px">방문객입장</button>
 			<button class="button" id="login" type="submit" onclick="emptyCheck()" style="padding-left: 5px">로그인</button>
 		</div>
 	</form>
