@@ -20,12 +20,12 @@
 		function emptyCheck() {
 			if (document.getElementById("id").value == "") {
 				alert("아이디를 입력하십시오!");
-				document.getElementById("id").focus();
+				document.getElementById("id").elements["id"].focus();
 				return false;
 			}
 			else if (document.getElementById("id").value == "") {
 				alert("비밀번호를 입력하십시오");
-				document.getElementById("password").focus();
+				document.getElementById("password").elements["password"].focus();
 				return false;
 			}
 			
@@ -34,7 +34,7 @@
 </head>
 <body>
 	<h2>샬롬~ 소망교회에 오신것을 환영합니다</h2>
-	<form accept-charset="utf-8" method="POST" action="main.php">
+	<form accept-charset="utf-8" method="POST" action="main.php" onsubmit="return emptyCheck()">
 		<!-- 로그인 정보를 기입하는 부분 -->
 		<div class="login" id="loginForm">
 			<input type="text" name="id" id="id" placeholder="아이디를 입력해주세요" autofocus="autofocus">
