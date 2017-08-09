@@ -35,7 +35,7 @@
 		<div class="text-center">
 			<form method="GET" action="board.php"></form>
 			<ul class="pagination">
-				<li><a href="#" name="pageNum">1</a></li>
+				<li><a href="#" name="pageNum" type="submit">1</a></li>
 				<li><a href="#" name="pageNum">2</a></li>
 				<li><a href="#" name="pageNum">3</a></li>
 				<li><a href="#" name="pageNum">4</a></li>
