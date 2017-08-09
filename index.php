@@ -11,8 +11,8 @@
 		var inputPW = document.getElementById("password");
 
 		function guestLogin() {
-			document.getElementById("id").setAttribute("value", "Guest");
-			document.getElementById("id").setAttribute("value", "Guest");
+			document.getElementById("id").elements["id"].setAttribute("value", "Guest");
+			document.getElementById("id").elements["password"].setAttribute("value", "Guest");
 
 			return false;
 		}
