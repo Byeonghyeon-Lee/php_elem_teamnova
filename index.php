@@ -10,16 +10,20 @@
 		function guestLogin() {
 			document.getElementById("id").setAttribute("value", "Guest");
 			document.getElementById("password").setAttribute("value", "Guest");
+
+			return false;
 		}
 
 		function emptyCheck() {
 			if (document.getElementById("id").value == "") {
 				alert("아이디를 입력하십시오!");
 				document.getElementById("id").focus();
+				return false;
 			}
 			else if (document.getElementById("password").value == "") {
 				alert("비밀번호를 입력하십시오");
 				document.getElementById("password").focus();
+				return false;
 			}
 			
 		}
@@ -40,6 +44,10 @@
 			<button class="button" id="login" type="submit" onclick="emptyCheck()" style="padding-left: 5px">로그인</button>
 		</div>
 	</form>
-	
+	<!-- 이후 들어가야할 소스 -->
+	<!-- 
+		php: DB 연동 
+		내용: 로그인을 눌렀을 때 DB랑 연동해서 입력받은 ID랑 비밀번호가 DB에 있는지 확인하고 있으면 다음 화면으로 넘기고 아니면 에러메세지를 띄우고 틀린부분에 focus를 준다
+	-->
 </body>
 </html>
