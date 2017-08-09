@@ -6,7 +6,7 @@
 </head>
 <body>
 	<?php 
-		print $_POST['docNum']. "번 글입니다";
+		print $_GET['docNum']. "번 글입니다";
 	?>
 </body>
 </html>
