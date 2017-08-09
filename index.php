@@ -7,20 +7,23 @@
 		
 	</style>
 	<script type="text/javascript">
+		var inputID = document.getElementById("id");
+		var inputPW = document.getElementById("password");
+
 		function guestLogin() {
-			document.getElementById("id").setAttribute("value", "Guest");
-			document.getElementById("password").setAttribute("value", "Guest");
+			inputID.setAttribute("value", "Guest");
+			inputPW.setAttribute("value", "Guest");
 
 			return false;
 		}
 
 		function emptyCheck() {
-			if (document.getElementById("id").value == "") {
+			if (inputID.value == "") {
 				alert("아이디를 입력하십시오!");
 				document.getElementById("id").focus();
 				return false;
 			}
-			else if (document.getElementById("password").value == "") {
+			else if (inputPW.value == "") {
 				alert("비밀번호를 입력하십시오");
 				document.getElementById("password").focus();
 				return false;
