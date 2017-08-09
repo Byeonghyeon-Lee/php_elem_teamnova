@@ -28,6 +28,27 @@
 					<td>2017.08.09</td>
 					<td>0</td>
 				</tr>
+				<tr>
+					<td>002</td>
+					<td>네이버처럼 페이징하기</td>
+					<td>관리자</td>
+					<td>2017.08.09</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<td>003</td>
+					<td>자바스크립트와 a태그를 이용하여 url에 정보를 갖다붙인다</td>
+					<td>관리자</td>
+					<td>2017.08.09</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<td>004</td>
+					<td>어떻게 하는건지 좀 더 알아보기</td>
+					<td>관리자</td>
+					<td>2017.08.09</td>
+					<td>0</td>
+				</tr>
 			</tbody>
 		</table>
 		<hr/>
@@ -35,7 +56,7 @@
 		<div class="text-center">
 			<form method="GET" action="board.php"></form>
 			<ul class="pagination">
-				<li><a href="#" name="pageNum" type="submit">1</a></li>
+				<li><a href="#" name="pageNum">1</a></li>
 				<li><a href="#" name="pageNum">2</a></li>
 				<li><a href="#" name="pageNum">3</a></li>
 				<li><a href="#" name="pageNum">4</a></li>
